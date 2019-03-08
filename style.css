@@ -17,3 +17,89 @@ body{
   background-color: grey;
   color: pink;
 }
+
+
+.main-home, .main-project, .main-cv{
+  margin: 0 15% 0 15%;
+}
+
+.main-home li {
+  list-style-type: none;
+}
+
+#vertical {
+  width: 150px;
+  height: 180px;
+}
+
+#horizontal {
+  width: 200px;
+  height: 150px;
+}
+
+.header{
+  display: inline-block;
+  font-family: courier;
+  color: yellow;
+  border: solid grey;
+  background-color: grey;
+  border-width: thick;
+  padding: 1%;
+}
+
+.main-project p{
+  color: white;
+  font-family: courier;
+  border-style: solid;
+  border-width: thick;
+  background-color: grey;
+}
+
+.main-cv ul{
+  list-style-type: circle;
+}
+
+.main-cv.paragraph{
+  margin-top: 10%;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  max-height: 100px;
+}
+
+input[type=submit] {
+  background-color:#ff794d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #e63900;
+}
+
+ /* Style the container/contact section */
+.container {
+  width: 50%;
+  max-height: 50%;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-left: 24%;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  width: 50%;
+  margin: 1% 0 0 23%;
+  padding: 20px;
+}
+
