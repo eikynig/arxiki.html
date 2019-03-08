@@ -1,13 +1,19 @@
 body{
   text-align:center;
   background-color: #e6ccff;
-
+  margin:0;
 }
 
 .menu{
-  float=left;
-  background-color: black;
-  color: pink;
+  text-align:left;
+  background-color: black;  
   padding: 1%;
+  text-decoration:none;
+  color: white;
   
+}
+
+.menu a:hover{
+  background-color: grey;
+  color: pink;
 }
