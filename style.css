@@ -1,1 +1,13 @@
+body{
+  text-align:center;
+  background-color: #e6ccff;
 
+}
+
+.menu{
+  float=left;
+  background-color: black;
+  color: pink;
+  padding: 1%;
+  
+}
